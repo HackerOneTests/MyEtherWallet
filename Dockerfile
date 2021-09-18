@@ -1,4 +1,4 @@
-FROM node:12-stretch
+FROM node:14-bullseye-slim
 
 ENV HOME /home
 ENV NODE_OPTIONS --max-old-space-size=8192
